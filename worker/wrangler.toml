@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "nook-db"
-database_id = ""
+database_id = "5b40fdcb-f433-493c-a5c1-61a2e3796620"
 
 [[r2_buckets]]
 binding = "VIDEOS_BUCKET"

@@ -1,7 +1,9 @@
 {
   "r2_endpoint": "https://<account_id>.r2.cloudflarestorage.com",
   "r2_bucket": "nook-videos",
-  "d1_database_id": "",
+  "r2_access_key_id": "",
+  "r2_secret_access_key": "",
+  "d1_database_id": "5b40fdcb-f433-493c-a5c1-61a2e3796620",
   "cloudflare_account_id": "",
   "cloudflare_api_token": "",
   "local_video_path": "/path/to/videos",
