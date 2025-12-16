@@ -1,0 +1,13 @@
+{
+  "r2_endpoint": "https://<account_id>.r2.cloudflarestorage.com",
+  "r2_bucket": "nook-videos",
+  "d1_database_id": "",
+  "cloudflare_account_id": "",
+  "cloudflare_api_token": "",
+  "local_video_path": "/path/to/videos",
+  "output_path": "./processed",
+  "ai_model": "Qwen3-VL-30B-A3B",
+  "face_detection_model": "mediapipe",
+  "ffmpeg_preset": "medium",
+  "ffmpeg_crf": 28
+}

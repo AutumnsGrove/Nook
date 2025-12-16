@@ -5,17 +5,20 @@
 ---
 
 ## Project Purpose
-[Fill in: What this project does - 1-2 sentences]
+Nook is a private video sharing platform for close friends. It uses local AI processing to categorize videos, detect and blur unknown faces, and provides a cozy, privacy-first interface for sharing moments.
 
 ## Tech Stack
-[Fill in: Technologies, frameworks, and languages used]
-- Language:
-- Framework:
-- Key Libraries:
-- Package Manager:
+- **Language**: TypeScript (frontend/backend), Python (processing)
+- **Framework**: SvelteKit (Lattice-based), Cloudflare Workers
+- **Key Libraries**: Qwen3-VL-30B-A3B (AI categorization), MediaPipe (face detection), face_recognition, FFmpeg
+- **Package Manager**: npm (frontend), UV (Python), wrangler (Cloudflare)
 
 ## Architecture Notes
-[Fill in: Key architectural decisions, patterns, or structure]
+- Frontend: SvelteKit with Heartwood authentication and allowlist gate.
+- Backend: Cloudflare Workers with D1 database and R2 storage.
+- Processing: Local Python pipeline on Mac Mini for AI categorization, face detection, and compression.
+- Security: All video requests go through authenticated Workers; unknown faces are blurred; access restricted to allowlist.
+- Database: SQLite via D1 with schema for videos, known faces, allowlist, and view logs.
 
 ---
 
