@@ -7,19 +7,19 @@
 - [x] Create Python processing pipeline placeholder
 - [x] Create database migrations placeholder
 - [x] Update AGENT.md with project details
-- [ ] Set up Heartwood authentication integration
-- [ ] Implement allowlist gate (backend + frontend)
-- [ ] Create manual video upload to R2 (script/UI)
-- [ ] Test progressive MP4 streaming via authenticated route
-- [ ] Implement single video player page
-- [ ] Set up D1 database and run migrations
-- [ ] Configure environment variables and secrets
+- [x] Set up Heartwood authentication integration
+- [x] Implement allowlist gate (backend + frontend)
+- [x] Create manual video upload to R2 (script/UI)
+- [x] Test progressive MP4 streaming via authenticated route
+- [x] Implement single video player page
+- [x] Set up D1 database and run migrations
+- [x] Configure environment variables and secrets
 
 ## Phase 1: Manual Pipeline
 - [ ] Adapt compression pipeline for web output (faststart, thumbnails)
-- [ ] Video catalog UI (grid view)
-- [ ] Basic metadata (title, date, duration)
-- [ ] Upload script that pushes to Amber/R2 + creates D1 record
+- [x] Video catalog UI (grid view)
+- [x] Basic metadata (title, date, duration)
+- [x] Upload script that pushes to Amber/R2 + creates D1 record
 
 ## Phase 2: AI Categorization
 - [ ] Local Qwen3-VL inference pipeline
